@@ -1,0 +1,49 @@
+presentation week 4
+========================================================
+author: Sanford Lefkowitz
+date: May 8, 2022
+autosize: true
+
+Purpose
+========================================================
+
+
+
+This app uses the R supplied dataset USArrests to display and sort various statistics about crime and population.
+
+
+Introduction
+========================================================
+
+
+
+- Data from USArrests
+- Crimes included are: Murder , Rape, Assault
+- Shown with Population
+
+Selection Criteria
+========================================================
+
+
+Select Sort Field
+ - Murder
+ - Assault
+ - Rape
+
+ Select Sort Order
+ - Increasing
+ - Decreasing
+
+Select Number to Display
+ text box for number
+
+
+
+Overall Summary of Data
+========================================================
+
+```{r}
+summary(USArrests)
+```
+
+
